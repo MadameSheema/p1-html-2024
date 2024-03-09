@@ -1,6 +1,9 @@
 body {
     font-family: "Helvetica Neue";
     margin: 0px;
+    width: 100%;
+    overflow: overlay;
+    overflow-x: hidden;
 }
 
 nav {
@@ -36,13 +39,18 @@ a.padding {
     padding: 19px;
 }
 
+
 section {
     height:625px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10px;
+    
+}
+
+.bottomMargin {
+    margin-bottom: 15px;
 }
 
 .bottom {
@@ -93,8 +101,18 @@ div.products {
 }
 
 .vision {
-    background-image:url('/images/visionPro.jpeg');
+    background-image: url('/images/visionPro.jpeg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: contain
+}
+
+.combined {
+    height:625px;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    padding-left: 15px;   
+    padding-right: 15px;    
 }
