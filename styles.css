@@ -45,6 +45,7 @@ section {
 
 .bottom {
     justify-content: flex-end;
+    padding: 40px;
 }
 
 .bright {
