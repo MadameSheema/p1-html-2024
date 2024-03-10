@@ -17,6 +17,7 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     position: sticky;
+    z-index: 1000;
     top: 0;
 }
 
