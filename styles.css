@@ -107,7 +107,7 @@ h4 {
     font-weight: 300;
     letter-spacing: 0.112px;
     margin-top: 0px;    
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     display: inline;
 }
 
@@ -185,6 +185,18 @@ section.bright.padding, section.dark.padding {
     position: absolute;
     top: 200px;
 }
+
+.card {
+    position: absolute;
+    top: 220px;
+}
+
+.trade {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 
 
 footer {
