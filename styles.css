@@ -101,6 +101,7 @@ h4 {
     letter-spacing: 0.112px;
     margin-top: 0px;    
     margin-bottom: 12px;
+    display: inline;
 }
 
 a.bigBlueNavigation {
@@ -152,4 +153,12 @@ p {
     padding: 0px;
     color: red;
     letter-spacing: 3px;
+}
+
+.rainbow {
+    background-image: linear-gradient(to right, 
+    violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
