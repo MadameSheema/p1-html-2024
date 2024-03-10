@@ -53,6 +53,11 @@ section {
     margin-bottom: 15px;
 }
 
+.bottomMarginVision {
+    margin-bottom: 7.5px;
+}
+
+
 .bottom {
     justify-content: flex-end;
     padding-bottom: 20px;
@@ -142,11 +147,12 @@ div.products {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 7.5px;
 }
   
 .combined section {
     flex: 1;
-    flex-basis: 0;
+    margin:7.5px;
 }
 
 p {
