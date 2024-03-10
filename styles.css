@@ -138,6 +138,11 @@ div.productsSmall {
     height: 60%;
 }
 
+.carrusel {
+    max-width: 100%;
+    grid-column: 1 / -1;
+}
+
 .combined {
     height:625px;
     width:100%;
