@@ -4,8 +4,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 nav {
@@ -167,7 +166,6 @@ p {
 .rainbow {
     background-image: linear-gradient(to right, 
     violet, indigo, blue, green, yellow, orange, red);
-    -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
@@ -197,8 +195,6 @@ section.bright.padding, section.dark.padding {
     right: 0;
 }
 
-
-
 footer {
     display: flex;
     flex-direction: column;
@@ -225,6 +221,11 @@ footer div {
 }
 
 .column {
-    margin-right: 100px;
+    margin-right: 70px;
     padding-right: 14px;
+}
+
+a.footer {
+    color:rgba(0, 0, 0, 0.56);
+    text-decoration: underline
 }
