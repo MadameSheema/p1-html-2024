@@ -172,7 +172,7 @@ footer {
     justify-content: center;
 }
 
-.footerChild{
+.footer-wrapper{
     width: 50%;
     display: flex;
     flex-direction: column;
