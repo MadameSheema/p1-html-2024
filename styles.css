@@ -46,18 +46,18 @@ section {
     align-items: center;   
 }
 
-.bottomMargin {
+#mac, #iphone {
     margin-bottom: 15px;
 }
 
-.bottomMarginVision {
-    margin-bottom: 7.5px;
-}
-
-
-.bottom {
+#vision {
     justify-content: flex-end;
     padding-bottom: 20px;
+    margin-bottom: 7.5px;
+    background-image: url('/images/visionPro.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain
 }
 
 .bright {
@@ -124,13 +124,6 @@ section div a {
 
 div.products {
     margin-top: 75px;
-}
-
-.vision {
-    background-image: url('/images/visionPro.jpeg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain
 }
 
 .images {
