@@ -35,9 +35,6 @@ a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
     font-size: 12px;
-}
-
-a.padding {
     padding: 19px;
 }
 
@@ -113,6 +110,7 @@ h4 {
 section div a {
     color: rgb(0, 102, 204);
     text-decoration: none;
+    padding: 19px;
 }
 
 .big-anchor {
@@ -170,7 +168,7 @@ p {
     color: transparent;
 }
 
-section.bright.padding, section.dark.padding {
+section.bright, section.dark {
     position: relative;
 }
 
