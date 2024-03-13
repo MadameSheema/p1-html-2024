@@ -151,25 +151,20 @@ section.bright, section.dark {
     position: relative;
 }
 
-.iphone, .airpods {
+#iphone-small img, #airpods img, #trade img {
     position: absolute;
     bottom: 0;
 }
 
-.ipad {
+#ipad img {
     position: absolute;
     top: 200px;
 }
 
-.card {
+#card img {
     position: absolute;
     top: 220px;
 
-}
-
-.trade {
-    position: absolute;
-    bottom: 0;
 }
 
 footer {
