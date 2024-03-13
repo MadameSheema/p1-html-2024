@@ -110,16 +110,16 @@ h4 {
     display: inline;
 }
 
-a.bigBlueNavigation {
+section div a {
     color: rgb(0, 102, 204);
     text-decoration: none;
+}
+
+.big-anchor {
     font-size: 21px;
     font-weight: 370;
 }
-
-a.smallBlueNavigation {
-    color: rgb(0, 102, 204);
-    text-decoration: none;
+.small-anchor {
     font-size: 17px;
     font-weight: 270;
 }
