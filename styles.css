@@ -93,6 +93,14 @@ h4 {
     display: inline;
 }
 
+.card-text-bottom, .trade-text-bottom {
+    margin-bottom:5px
+}
+
+.airpods-text-bottom {
+    margin-bottom:8px;
+}
+
 section div a {
     color: rgb(0, 102, 204);
     text-decoration: none;
