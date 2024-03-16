@@ -1,3 +1,7 @@
+:root {
+    --footer-font-color: rgba(0, 0, 0, 0.56);
+}
+
 body {
     font-family: "Helvetica Neue";
     margin: 0px;
@@ -190,7 +194,7 @@ footer ul li {
     font-size: 12px;
     margin-bottom: 15px;
     list-style: none;
-    color:rgba(0, 0, 0, 0.56);
+    color: var(--footer-font-color)
 }
 
 footer div {
@@ -200,7 +204,7 @@ footer div {
 }
 
 a.footer {
-    color:rgba(0, 0, 0, 0.56);
+    color: var(--footer-font-color);
     text-decoration: underline;
     padding: 0px;
 }
