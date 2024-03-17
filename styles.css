@@ -1,5 +1,6 @@
 :root {
     --footer-font-color: rgba(0, 0, 0, 0.56);
+    --right-arrow: ' \02C3'
 }
 
 body {
@@ -118,6 +119,18 @@ section div a {
 .small-anchor {
     font-size: 17px;
     font-weight: 270;
+}
+
+.big-anchor::after {
+    content: var(--right-arrow);
+    font-size: 35px;
+    vertical-align: -11px;
+}
+
+.small-anchor::after {
+    content: var(--right-arrow);
+    font-size: 30px;
+    vertical-align: -14px;
 }
 
 .adjusted-big-images {
